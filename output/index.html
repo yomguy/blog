@@ -16,6 +16,7 @@
                 <nav><ul>
                                                                                     <li ><a href="/category/linux.html">Linux</a></li>
                                     <li ><a href="/category/projects.html">Projects</a></li>
+                                    <li ><a href="/category/technology.html">Technology</a></li>
                                     <li ><a href="/category/wtf.html">WTF</a></li>
                                                 </ul></nav>
         </header><!-- /#banner -->
@@ -24,8 +25,36 @@
 
                             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/wtf-le-reseau-en-france.html">WTF le réseau en France ?!</a></h1> 
+                    <h1 class="entry-title"><a href="/switching-my-blog.html">Switching my blog again</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2013-08-19T22:30:00">
+                lun. 19 août 2013
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/guillaume-pellerin.html">Guillaume Pellerin</a>
+        </address>
+        <p>In <a href="/category/technology.html">Technology</a>. </p>
+<p>tags: <a href="/tag/technology.html">technology</a><a href="/tag/blog.html">blog</a></p>
+</footer><!-- /.post-info --><p>After many switches between Wordpress, DotClear and other cool blog systems like Zinnia for the lovely Django, too much SQL hacking and tons of SPAM in comments<br />
+I decided to finally rebuild it with a static<br />
+</p><p>There are <a href="/switching-my-blog.html#disqus_thread">comments</a>.</p>                </article>
+                            </aside><!-- /#featured -->
+                            <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+                                                
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/wtf-le-reseau-en-france.html" rel="bookmark"
+                           title="Permalink to WTF le réseau en France ?!">WTF le réseau en France ?!</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2013-06-27T10:30:00">
                 jeu. 27 juin 2013
         </abbr>
@@ -35,39 +64,11 @@
         </address>
         <p>In <a href="/category/wtf.html">WTF</a>. </p>
 <p>tags: <a href="/tag/wtf.html">WTF</a><a href="/tag/reseau.html">réseau</a><a href="/tag/france.html">France</a></p>
-</footer><!-- /.post-info --><p>Comme je suis adèpte du networking dans les cafés en ce moment, je m'installe ce matin à la Vielleuse de Belleville à Paris. Cherchant un peu réseau, je tombe sur 3 os.</p>
-<h1>FreeWifi</h1>
-<p>Je réussis à loader <strong>une</strong> page et puis plus rien... Il y a vraiment un problème avec ce système : 95% du temps, ça foire au bout de 5mn. Il va vraiment falloir dire la vérite sur la qualité des services Free qui, derrière des solutions technologiques autrefois solides et des tarifs alléchants, laisse vraiment à désirer aujourd'hui (SMS qui arrivent 3h après envoi, Youtube indisponible le soir, etc...).</p>
-<h1>Noodo</h1>
-<p>Il y a une antenne ds le café installé par une obscure boîte "Noodo". Il faut un code que je demande au serveur. L'accès au web est conditionné par l'envoi d'un formulaire qui me demande même un mail. Je file ma junk adresse. Ouf, au bout de 10mn que je suis installé, j'ai enfin du réseau, mais pas pour longtemps:</p>
-<blockquote>
-<p>Vous avez atteint le temps limite de connexion. Vous ne pouvez pas vous connectez plus de 20 minutes  par jour dans cet établissement.</p>
-</blockquote>
-<p>Je rêve assis ! C'est comme si une autoroute privée vous donnait un temps maximum pour effectuer un voyage au-délà duquel vous ne pourriez plus rouler.</p>
-<h1>SFR</h1>
-<p>Je me rabas sur ma solution de secours : le partage de connexion en WiFi depuis mon phone Android. Heureusement, il est rooté et surtout hacké avec une ROM AOKP. Tous les FAI français bloquent ce type de partage - bien que les appareils et les OS comme Android le permettent - i.e. pour nous vendre des clés 3G à la con alors qu'on paie déjà une bande passante 3G avec les forfaits téléphoniques. Heureusement que les hackers sont là pour nous fournir des ROMs débridées !</p>
-<p>J'ai donc enfin du réseau, mais notez que le pékin moyen avec une ROM salopée par sa FAI française n'aurait jamais pu faire ça... <em>MAIS</em>, car il y a toujours un <em>mais</em> dans ce p**** de pays... Je dois travailler sur mon projet <a href="http://telemeta.org">Telemeta</a> et en particulier sur le site des <a href="http://archives.crem-cnrs.fr">archives du CREM</a>. Sauf que voilà, SFR a décidé de ne pas respecter la neutralité du net de sniffer toutes les requêtes web de ses usagers... Ainsi, à la place de du code HMTML/JavaScript - que je connais pour l'avoir codé - SFR renvoie une compression du code original en remplaçant tous les liens statiques par ceux d'un proxy 1.2.3.4, genre http://1.2.3.4/bmi-int-js/bmi.js?version=1346927152</p>
-<p>La différence :</p>
-<p><a href="https://gist.github.com/yomguy/5875132">https://gist.github.com/yomguy/5875132</a></p>
-<p>au lieu de :</p>
-<p><a href="https://gist.github.com/yomguy/6263650">https://gist.github.com/yomguy/6263650</a></p>
-<p>En d'autrs termes, tout le contenu désiré est lu par une machine distante qui vous la renvoie comme bon lui semble.
-Résultat, gros bug du lecteur audio TimeSide dont j'ai besoin...</p>
-<p>D'après quelques tests récents, ce filtrage n'a pas lieu lorsqu'on navigue directement depuis le smartphone, mais seulement en mode de connexion partagée ou lorqu'on utilise un clé 3G SFR. Ce GROS problème a été relaté et expliqué par reflets.info dans ces 3 posts : <a href="http://reflets.info/sfr-modifie-le-source-html-des-pages-que-vous-visitez-en-3g/">1</a> <a href="http://reflets.info/sfr-man-in-the-middle-oui-cest-particulierement-grave/">2</a> <a href="http://reflets.info/sfr-nouveau-co-editeur-de-reflets-au-sens-de-la-lcen/">3</a></p>
-<h1>Moralité</h1>
-<p>Il semble donc assez compliqué encore, dans les années 10 du XXIe siècle, de travailler convenablement en mode connecté et nomade en plein coeur de Paris. Les pouvoirs politiques ont beau faire mine de s'intéresser au développement et au financement de la société numérique, le cadre de l'exploitation des ressources semble complètement hors de contrôle.</p>
-<p>Quelques propositions pour améliorer cet état de fait:</p>
-<ol>
-<li>Contrôller que les services vendus par les FAIs sont bien opérationnels, du moins selon un certain taux autour d'une localité.</li>
-<li>Interdire les limitations temporelles de connexion même sur un réseau privé, le volume de données étant un bien meilleur régulateur.</li>
-<li>Empêcher les FAIs de filtrer le contenu du web transmis sans accord préalable explicite avec ses clients.</li>
-</ol><p>There are <a href="/wtf-le-reseau-en-france.html#disqus_thread">comments</a>.</p>                </article>
-                            </aside><!-- /#featured -->
-                            <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-                                                
+</footer><!-- /.post-info -->                <p>Le networking en France</p>
+                <a class="readmore" href="/wtf-le-reseau-en-france.html">read more</a>
+                <p>There are <a href="/wtf-le-reseau-en-france.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
+            </article></li>
+                            
 
                  
                         <li><article class="hentry">    

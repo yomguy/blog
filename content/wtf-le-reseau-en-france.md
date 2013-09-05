@@ -34,7 +34,7 @@ au lieu de :
 
 [https://gist.github.com/yomguy/6263650](https://gist.github.com/yomguy/6263650)
 
-En d'autrs termes, tout le contenu désiré est lu par une machine distante qui vous la renvoie comme bon lui semble.
+En d'autres termes, tout le contenu désiré est lu par une machine distante qui vous la renvoie comme bon lui semble.
 Résultat, gros bug du lecteur audio TimeSide dont j'ai besoin...
 
 D'après quelques tests récents, ce filtrage n'a pas lieu lorsqu'on navigue directement depuis le smartphone, mais seulement en mode de connexion partagée ou lorqu'on utilise un clé 3G SFR. Ce GROS problème a été relaté et expliqué par reflets.info dans ces 3 posts : [1](http://reflets.info/sfr-modifie-le-source-html-des-pages-que-vous-visitez-en-3g/) [2](http://reflets.info/sfr-man-in-the-middle-oui-cest-particulierement-grave/) [3](http://reflets.info/sfr-nouveau-co-editeur-de-reflets-au-sens-de-la-lcen/)
