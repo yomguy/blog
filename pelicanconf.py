@@ -42,7 +42,7 @@ SOCIAL = (('Twitter', 'https://twitter.com/yomguy/'),
           )
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 DISQUS_SITENAME='yomguysblog'
 GITHUB_USER = 'yomguy'
