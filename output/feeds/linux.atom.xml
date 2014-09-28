@@ -25,4 +25,4 @@
 &lt;p&gt;Here is a list of the possibilities in &lt;a href="http://files.parisson.com/debian/fast-track-pro.conf"&gt;this example&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Don't forget to comment out other snd-usb-audio entries in ? /etc/modprobe.d/alsa-base.conf&lt;/p&gt;
 &lt;p&gt;Thanks a LOT to Takashi Iwai, the patch has been &lt;a href="http://git.kernel.org/?p=linux/kernel/git/tiwai/sound-2.6.git;a=commitdiff;h=0f5733b0c883158b13366ae34b5e4bd52a1ac346;hp=3101ba035ca9ba92f6cec7fd37348646b7a5cb61"&gt;applied to the sound kernel branch&lt;/a&gt; and &lt;a href="http://git.kernel.org/?p=linux/kernel/git/tiwai/sound-2.6.git;a=commitdiff;h=02e5fbf622aabf68bdc02282a17a3aeed054237a"&gt;merged&lt;/a&gt; . It will be added to Linux 3.1 !&lt;/p&gt;
-&lt;p&gt;Enjoy ;)&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
+&lt;p&gt;Enjoy ;)&lt;/p&gt;</summary><category term="audio"></category><category term="usb"></category><category term="kernel"></category><category term="RT"></category><category term="realtime"></category><category term="Linux"></category></entry></feed>
