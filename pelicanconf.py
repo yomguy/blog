@@ -5,11 +5,20 @@ from __future__ import unicode_literals
 AUTHOR = u'Guillaume Pellerin'
 SITENAME = u"Yomguy's blog"
 SITEURL = 'http://yomix.org'
-THEME = 'pelican-themes/notmyidea'
+THEME = 'themes/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'united'
+# THEME = 'themes/notmyidea'
+# CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
+PATH = 'content/'
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'fr'
+DEFAULT_DATE = 'fs'
+
+SUMMARY_MAX_LENGTH = 127
+SLUGIFY_SOURCE = 'title'
+# DEFAULT_PAGINATION = 5
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -25,19 +34,18 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/yomguy/'),
-          ('G+', 'https://plus.google.com/+GuillaumePellerin'),
+          ('Google+', 'https://plus.google.com/+GuillaumePellerin'),
           ('LinkedIn', 'http://www.linkedin.com/in/guillaumepellerin'),
           ('GitHub', 'https://github.com/yomguy/'),
           ('LastFM', 'http://lastfm.com/user/yomguy'),
           ('FaceBook', 'https://www.facebook.com/yomguy75'),
           )
 
-TWITTER_USERNAME = 'yomguy'
-
-DEFAULT_PAGINATION = 5
-
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 DISQUS_SITENAME='yomguysblog'
+GITHUB_USER = 'yomguy'
+TWITTER_CARDS = True
+TWITTER_USERNAME = 'yomguy'
 

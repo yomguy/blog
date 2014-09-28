@@ -36,7 +36,7 @@ class PelicanBlogEntry(object):
 		self.text = raw_input('Text:\n')
 		self.dict['Slug'] = slugify(self.dict['Title'])
 		self.dict['Summary'] = self.text[:64] + '...'
-		
+
 	def write(self):
 		self.file = open('content' + os.sep + self.dict['Slug'] + '.md', 'w')
 		for key in self.dict.keys():
