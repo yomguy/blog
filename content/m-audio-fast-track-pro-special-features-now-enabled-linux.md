@@ -1,7 +1,7 @@
 Title: M-Audio Fast Track Pro and Quattro special features now enabled for Linux
 Date: 2011-07-14 7:33
 Category: Linux
-Tags: pelican, publishing
+Tags: audio, usb, kernel, RT, realtime, Linux
 Slug: m-audio-fast-track-pro-special-features-now-enabled-linux
 Author: Guillaume Pellerin
 Summary: M-Audio Fast Track Pro and Quattro special features now enabled for Linux

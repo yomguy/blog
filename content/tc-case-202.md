@@ -1,7 +1,7 @@
 Title: TC-202 "Case"
 Date: 2011-01-16 13:23
 Category: Projects
-Tags: pelican, publishing
+Tags: Parisson, TeleCaster
 Slug: tc-case-202
 Author: Guillaume Pellerin
 Summary: TC-202 "Case" has been released by Parisson

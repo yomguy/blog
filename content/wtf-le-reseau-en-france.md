@@ -1,7 +1,7 @@
 Title: WTF le réseau en France ?!
 Date: 2013-06-27 10:30
 Category: WTF
-Tags: WTF, réseau, France
+Tags: GSM, WiFi, réseau, France
 Slug: wtf-le-reseau-en-france
 Author: Guillaume Pellerin
 Summary: Le networking en France
@@ -39,7 +39,7 @@ Résultat, gros bug du lecteur audio TimeSide dont j'ai besoin...
 
 D'après quelques tests récents, ce filtrage n'a pas lieu lorsqu'on navigue directement depuis le smartphone, mais seulement en mode de connexion partagée ou lorqu'on utilise un clé 3G SFR. Ce GROS problème a été relaté et expliqué par reflets.info dans ces 3 posts : [1](http://reflets.info/sfr-modifie-le-source-html-des-pages-que-vous-visitez-en-3g/) [2](http://reflets.info/sfr-man-in-the-middle-oui-cest-particulierement-grave/) [3](http://reflets.info/sfr-nouveau-co-editeur-de-reflets-au-sens-de-la-lcen/)
 
-#Moralité 
+#Moralité
 
 Il semble donc assez compliqué encore, dans les années 10 du XXIe siècle, de travailler convenablement en mode connecté et nomade en plein coeur de Paris. Les pouvoirs politiques ont beau faire mine de s'intéresser au développement et au financement de la société numérique, le cadre de l'exploitation des ressources semble complètement hors de contrôle.
 

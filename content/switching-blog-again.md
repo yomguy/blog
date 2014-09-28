@@ -1,7 +1,7 @@
 Title: Switching my blog again
 Date: 2013-08-19 22:30
 Category: Technologies
-Tags: blog, static
+Tags: about
 Slug: switching-my-blog
 Author: Guillaume Pellerin
 

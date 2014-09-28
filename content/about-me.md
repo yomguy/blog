@@ -1,7 +1,7 @@
 Title: About me
 Date: 2014-03-02 21:21
 Category: About
-Tags: About, Bio
+Tags: about, bio
 Author: Guillaume Pellerin
 Slug: about-me
 Summary: Manager of several open source projects for public and private i...
