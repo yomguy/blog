@@ -15,16 +15,16 @@ Now that the kernel 2.6.39 includes almost all of the realtime functions - like 
 
 After some mail exchanges with interested people and beta testing, I'm very happy to [release this patch](http://files.parisson.com/debian/snd-usb-audio-FTP-2.6.39-yomguy-04.patch). You just need to apply it the 2.6.39 sources but NO RT patch anymore and compile the kernel. Don't forget to add "threadirqs" to the kernel boot arguments, for example adding it to the grub conf.
 
-On Debian, editing /etc/default/grub :
+On Debian, add this to /etc/default/grub :
 
 ```
 GRUB_CMDLINE_LINUX="threadirqs"
 ```
 
-and then :
+and then do in a shell:
 
 ```
-$ sudo update-grub
+sudo update-grub
 ```
 
 Special configurations can be then loaded through a modprobe conf file. For example, to set the 24 bits mode on the Fast Track Pro plus digital inputs and outputs, add this to /etc/modprobe.d/fast-track-pro.conf :

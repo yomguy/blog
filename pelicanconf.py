@@ -20,11 +20,19 @@ TRANSLATION_FEED_ATOM = None
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+          ('Django', 'https://www.djangoproject.com/'),
+          )
 
 # Social widget
-SOCIAL = (('Twitter', 'http://twitter.com/yomguy/'),
-          ('G+', 'https://plus.google.com/u/0/107372663562513768053/posts'),)
+SOCIAL = (('Twitter', 'https://twitter.com/yomguy/'),
+          ('G+', 'https://plus.google.com/+GuillaumePellerin'),
+          ('LinkedIn', 'http://www.linkedin.com/in/guillaumepellerin'),
+          ('GitHub', 'https://github.com/yomguy/'),
+          ('LastFM', 'http://lastfm.com/user/yomguy'),
+          ('FaceBook', 'https://www.facebook.com/yomguy75'),
+          )
+
+TWITTER_USERNAME = 'yomguy'
 
 DEFAULT_PAGINATION = 5
 
@@ -32,3 +40,4 @@ DEFAULT_PAGINATION = 5
 #RELATIVE_URLS = True
 
 DISQUS_SITENAME='yomguysblog'
+

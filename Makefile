@@ -15,7 +15,7 @@ FTP_TARGET_DIR=/
 SSH_HOST=angus.parisson.com
 SSH_PORT=22
 SSH_USER=momo
-SSH_TARGET_DIR=/home/yomguy/blog2/
+SSH_TARGET_DIR=/home/yomguy/blog/
 
 S3_BUCKET=my_s3_bucket
 
