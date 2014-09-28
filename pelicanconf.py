@@ -21,7 +21,7 @@ SLUGIFY_SOURCE = 'title'
 # DEFAULT_PAGINATION = 5
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+# FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
