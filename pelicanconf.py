@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Guillaume Pellerin'
 SITENAME = u"Yomguy's blog"
-SITEURL = ''
-THEME = '/home/momo/apps/editors/pelican-themes/notmyidea'
+SITEURL = 'http://yomix.org'
+THEME = 'pelican-themes/notmyidea'
 
 TIMEZONE = 'Europe/Paris'
 
