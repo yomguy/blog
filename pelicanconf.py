@@ -4,11 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Guillaume Pellerin'
 SITENAME = u"Yomguy's blog"
-SITEURL = 'http://yomix.org'
+# Uncomment following line if you want document-relative URLs when developing
+RELATIVE_URLS = True
+# SITEURL = 'http://yomix.org'
 THEME = 'themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'united'
 # THEME = 'themes/notmyidea'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
+
 PATH = 'content/'
 
 TIMEZONE = 'Europe/Paris'
@@ -27,7 +30,7 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
+          ('Python', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
           ('Django', 'https://www.djangoproject.com/'),
           )
@@ -41,11 +44,26 @@ SOCIAL = (('Twitter', 'https://twitter.com/yomguy/'),
           ('FaceBook', 'https://www.facebook.com/yomguy75'),
           )
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
 DISQUS_SITENAME='yomguysblog'
 GITHUB_USER = 'yomguy'
 TWITTER_CARDS = True
 TWITTER_USERNAME = 'yomguy'
 TWITTER_WIDGET_ID = '516222825451888640'
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['sitemap', 'gallery', 'render_math']
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+

@@ -12,4 +12,10 @@ Python & Linux developer and root sys admin, Telemeta project manager, free libr
 
 Before I dive into computer science : researcher and associate professor in non-linear mechanics, electro-acoustics and aero-acoustics.
 
-For more infos and projects, please see my various profiles below.
+```python
+
+import os, sys, time
+
+```
+
+![VU](images/wall-vu-1200_crop.jpg)
