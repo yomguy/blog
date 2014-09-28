@@ -1,3 +1,4 @@
 This is my blog static sources.
-Made with [http://getpelican.com](Pelican)
+Made with [Pelican](http://getpelican.com)
+
 
