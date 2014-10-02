@@ -4,7 +4,7 @@ Category: Linux
 Tags: linux, boot, fstab, crash
 Author: YomGuy
 Slug: linux-i-love-you
-Summary: During the holidays, my dad accidentally made my laptop falled o...
+Summary: How Linux saved my life again...
 
 During the last summer holidays, my dad accidentally made my laptop falled onto the floor. The LCD display has been broken even the super strong Thinkpad shield had nothing. As I needed to work a little bit, I have just extracted the SSD from the laptop (one screw on the Thinkpads :) ), mounted it into a external SATA/USB cable, booted it from my girlfriend laptop and YEAH, I had all my desktop and apps running from the USB disk in 5 mn!
 

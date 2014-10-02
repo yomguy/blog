@@ -40,8 +40,9 @@ SOCIAL = (('Twitter', 'https://twitter.com/yomguy/'),
           ('Google+', 'https://plus.google.com/+GuillaumePellerin'),
           ('LinkedIn', 'http://www.linkedin.com/in/guillaumepellerin'),
           ('GitHub', 'https://github.com/yomguy/'),
-          ('LastFM', 'http://lastfm.com/user/yomguy'),
           ('FaceBook', 'https://www.facebook.com/yomguy75'),
+          ('LastFM', 'http://lastfm.com/user/yomguy'),
+
           )
 
 DISQUS_SITENAME='yomguysblog'
