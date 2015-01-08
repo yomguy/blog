@@ -4,7 +4,6 @@ Category: About
 Tags: about, bio
 Author: Guillaume Pellerin
 Slug: about-me
-Summary: A short bio
 
 Manager of several open source projects for public and private institutions, digital humanities, e-learning platforms, embed media streaming and audio processing solutions.
 
