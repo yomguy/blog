@@ -5,7 +5,7 @@ Tags: Linux, Audio, Realtime
 Author: Yomguy
 Slug: my-realtime-preemptible-kernel-for-audio-and-video-workstations
 
-Fast realtime audio and video operations need fast and stable accesses to the system devices. As many distributions come with partially (fake?) realtime (RT) low latency kernels not as preemptible as needed for audio and video processes which require very low level software and hardware system access priorities, I propose my own configuration and howtos to install a **real** RT kernel here:
+Fast realtime audio and video operations need stable, priority and realtime accesses to each system devices. As many distributions come with some partially or fake low latency kernels, i.e. not as preemptible as needed for **real** realtime processes, I propose my own configuration rules to install a better Linux RT kernel here:
 
 [https://github.com/yomguy/linux-RT-config](https://github.com/yomguy/linux-RT-config)
 
