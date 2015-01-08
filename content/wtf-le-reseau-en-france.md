@@ -4,7 +4,6 @@ Category: WTF
 Tags: GSM, WiFi, réseau, France
 Slug: wtf-le-reseau-en-france
 Author: Guillaume Pellerin
-Summary: Le networking en France
 
 Comme je suis adèpte du networking dans les cafés en ce moment, je m'installe ce matin à la Vielleuse de Belleville à Paris. Cherchant un peu réseau, je tombe sur 3 os.
 

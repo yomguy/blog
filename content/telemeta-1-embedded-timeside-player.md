@@ -4,7 +4,6 @@ Category: Projects
 Tags: Telemeta, TimeSide
 Slug: telemeta-1-embedded-timeside-player
 Author: Guillaume Pellerin
-Summary: Embedded Telemeta / TimeSide player !
 
 Since the release of [Telemeta 1.0](http://telemeta.org/blog/telemeta-1.0), it is possible to embed a [TimeSide UI dynamical player](http://code.google.com/p/timeside/wiki/UiGuide) in any HTML page :)
 

@@ -4,8 +4,6 @@ Category: Linux
 Tags: audio, usb, kernel, RT, realtime, Linux
 Slug: m-audio-fast-track-pro-special-features-now-enabled-linux
 Author: Guillaume Pellerin
-Summary: M-Audio Fast Track Pro and Quattro special features now enabled for Linux
-
 
 A few month ago, I was looking for a 24 bits driver for the Fast Track Pro included in the [TC-202](http://parisson.com/products/tc-202-case-1/).
 
