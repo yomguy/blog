@@ -18,4 +18,4 @@ import os, sys, time, freedom
 
 ```
 
-![VU](/images/wall-vu-1200_crop.jpg)
+![VU](/images/wall-vu-1200_crop.jpg =100%)
