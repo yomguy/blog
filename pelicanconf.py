@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Guillaume Pellerin'
 SITENAME = u"Yomguy's blog"
-SITEURL = 'http://yomix.org'
+# SITEURL = 'http://yomix.org'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 # SITEURL = 'http://yomix.org'
