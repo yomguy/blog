@@ -9,7 +9,7 @@ Since the release of [Telemeta 1.0](http://telemeta.org/blog/telemeta-1.0), it i
 
 Like this one from the CREM ethno-musicology archives, [GAMELAN PEGULINGAN Bali 1957](http://archives.crem-cnrs.fr/items/CNRSMH_I_1970_020_002_02/):
 
-<iframe src="http://archives.crem-cnrs.fr/items/CNRSMH_I_1970_020_002_02/player/360x130" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="375" height="220"></iframe>
+<iframe src="http://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1970_020_002_02/player/360x130" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="375" height="220"></iframe>
 
 All metadata time markers can be displayed during playback so you can follow, jump, read as you are listening to the sound. Here is a nice example with ["I Could Never Make that Music Again" from L&R and RadioMentale (Sub Rosa SR 249, 2007)](http://parisson.telemeta.org/items/PRS_07_01_03/). This track is a radio collage which organises and disorganises quotes from various famous electronic music artists interviewed and recorded:
 
