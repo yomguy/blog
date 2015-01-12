@@ -72,3 +72,5 @@ SITEMAP = {
 # Content licensing: CC-BY
 CC_LICENSE = "CC-BY"
 
+GOOGLE_ANALYTICS = 'UA-6573030-16'
+
