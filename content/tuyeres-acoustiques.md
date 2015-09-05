@@ -10,8 +10,7 @@ Background
 The Lyulka project
 --------------------
 
-
-
+Started at at Lam
 
 
 Bass Reflex system
@@ -22,6 +21,5 @@ Common Helmoltz resonator system
 
 
 
-The acoustic diplole alignement
+The acoustic diplole alignment
 --------------------------------
-
