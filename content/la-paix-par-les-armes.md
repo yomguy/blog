@@ -18,4 +18,4 @@ Que ce soit bien clair les copains : je ne suis ni Charlie, ni Paris, ni France,
 
 Gare à tous ceux qui défendent la paix par les armes et la liberté par les drapeaux.
 
-[1] [](https://wiki.laquadrature.net/%C3%89tat_urgence/Recensement#27_novembre_2015)
+[1] [https://wiki.laquadrature.net/%C3%89tat_urgence/Recensement#27_novembre_2015](https://wiki.laquadrature.net/%C3%89tat_urgence/Recensement#27_novembre_2015)
