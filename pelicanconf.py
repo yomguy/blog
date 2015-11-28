@@ -43,7 +43,6 @@ SOCIAL = (('Twitter', 'https://twitter.com/yomguy/'),
           ('GitHub', 'https://github.com/yomguy/'),
           ('FaceBook', 'https://www.facebook.com/yomguy75'),
           ('LastFM', 'http://lastfm.com/user/yomguy'),
-
           )
 
 DISQUS_SITENAME='yomguysblog'
