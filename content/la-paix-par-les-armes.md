@@ -2,7 +2,6 @@ Title: La paix par les armes
 Date: 2015-11-27 12:29
 Category: Libre
 Tags: Libre, Not Afraid
-Status: draft
 
 Après le 7 janvier, j'avais alerté, comme beaucoup d'autres, du danger de se voir confisquer nos libertés par ceux qui feignent les défendre.
 
