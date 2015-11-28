@@ -52,9 +52,13 @@ TWITTER_USERNAME = 'yomguy'
 TWITTER_WIDGET_ID = '516222825451888640'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['sitemap', 'gallery', 'render_math']
-
+PLUGINS = ['sitemap', 'gallery', 'render_math',
+            'liquid_tags.img', 'liquid_tags.video',
+           'liquid_tags.youtube', 'liquid_tags.vimeo',
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+           ]
 SITEMAP = {
+
     'format': 'xml',
     'priorities': {
         'articles': 0.5,
@@ -73,3 +77,4 @@ CC_LICENSE = "CC-BY"
 
 GOOGLE_ANALYTICS = 'UA-6573030-16'
 
+GALLERY_PATH = './content/images/gallery/'
