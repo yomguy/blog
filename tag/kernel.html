@@ -2,7 +2,7 @@
 <html lang="fr"
 >
 <head>
-    <title>me - Yomguy's blog</title>
+    <title>kernel - Yomguy's blog</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -168,7 +168,7 @@ init_mathjax();
 
 
     <meta name="author" content="Guillaume Pellerin" />
-    <meta name="keywords" content="me" />
+    <meta name="keywords" content="kernel" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="Yomguy's blog" />
@@ -192,6 +192,21 @@ init_mathjax();
         <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Yomguy's blog ATOM Feed"/>
 
+
+    <script src="../theme/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../theme/js/bootstrap.min.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="../theme/js/respond.min.js"></script>
+
+    <link rel="stylesheet" href="../theme/css/colorbox.css">
+    <script src="../theme/js/jquery.colorbox-min.js"></script>
+    <script>
+          jQuery(document).ready(function () {
+              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1', maxWidth:'80%' });
+          });
+      </script>
+
 </head>
 <body>
 
@@ -209,9 +224,9 @@ Yomguy's blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
-                            <a href="../category/about.html">About</a>
-                        </li>
+                         <li><a href="../pages/about-me.html">
+                             About me
+                          </a></li>
                         <li >
                             <a href="../category/libre.html">Libre</a>
                         </li>
@@ -241,16 +256,12 @@ Yomguy's blog            </a>
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="../about-me.html">About me</a></h2>
-                <div class="summary"><p>Eng. at Arts et Métiers ParisTech (1997-2000), Msc. ATIAM at UPMC (2001), PhD. in non-linear and low frequency acoustics and mechanics at UPMC (&lt;2006), Ass. Prof. at CNAM in acoustics and signal processing (&lt;2008).</p>
-<p>Now co-founder, CEO / CTO at <a href="http://parisson.com">Parisson</a>: Manager, strategist, system admin, software and hardware architect, data scientist and developer for several open source projects for digital humanities, laboratories and universities like web audio archiving and computing platforms <a href="http://telemeta.org">Telemeta</a>, high level audio processing frameworks <a href="https://github.com/Parisson/TimeSide">TimeSide</a>, live video e-learning platforms <a href="https://github.com/yomguy/teleforma">TeleForma</a>, embedded mobile recording and streaming solutions <a href="http://telecasting.parisson.com/">TeleCaster</a>, <a href="https://github.com/yomguy/DeeFuzzer">DeeFuzzer</a>.</p>
-<p>Open culture and free / libre software advocate, Python lover, Linux fan, Music addict, electronic music producer at <a href="http://deefuzz.parisson.com">DeeFuzz Radio</a>, expert in audio and video production systems and mastering technics.</p>
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">time</span><span class="o">,</span> <span class="nn">freedom</span>
-</pre></div>
-
-
-<p><img alt="VU" src="images/wall-vu-1200_crop.jpg" /></p>
-                    <a class="btn btn-default btn-xs" href="../about-me.html">more ...</a>
+                <h2><a href="../m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></h2>
+                <div class="summary"><p>EDIT: Thanks to Takashi Iwai, the patch has been <a href="http://git.kernel.org/?p=linux/kernel/git/tiwai/sound-2.6.git;a=commitdiff;h=0f5733b0c883158b13366ae34b5e4bd52a1ac346;hp=3101ba035ca9ba92f6cec7fd37348646b7a5cb61">applied to the Linux kernel sound branch</a> and <a href="http://git.kernel.org/?p=linux/kernel/git/tiwai/sound-2.6.git;a=commitdiff;h=02e5fbf622aabf68bdc02282a17a3aeed054237a">merged</a> from the 3.1 version and the then mainstream.</p>
+<p>A few month ago, I was looking for a 24 bits driver for the Fast Track Pro included in the <a href="http://parisson.com/products/tc-202-case-1/">TC-202</a>.</p>
+<p>I found a patch for the 2.6.31 kernel on <a href="http://joegiampaoli.blogspot.com/2011/06/m-audio-fast-track-pro-for-debian-linux.html">Joe Giampaoli's blog</a>  which were written first by Pavel Polischouk. It added some quirks to the snd-usb-audio driver enabling 24 bits, 96 kHz and other special features for the FTP. Then, I adapted it for 2.6.33 RT and <a href="http://files.parisson.com/debian/usbaudio-ftp-2.6.33.7-yomguy.patch">published it</a>.</p>
+<p>Now that the kernel 2.6.39 includes almost all of the realtime functions - like threaded IRQs for example - I decided to produce the same ...</p>
+                    <a class="btn btn-default btn-xs" href="../m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -326,7 +337,7 @@ Yomguy's blog            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2014 Guillaume Pellerin
+         <div class="col-xs-10">&copy; 2011 Guillaume Pellerin
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>              <p><small>  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by/4.0/80x15.png" /></a>
@@ -337,16 +348,7 @@ Yomguy's blog            </a>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
    </div>
-</footer>
-<script src="../theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="../theme/js/respond.min.js"></script>
-
-    <!-- GitHub JS -->
+</footer>    <!-- GitHub JS -->
     <script type="text/javascript">
         $(document).ready(function () {
             if (!window.jXHR) {

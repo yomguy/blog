@@ -192,6 +192,21 @@ init_mathjax();
         <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Yomguy's blog ATOM Feed"/>
 
+
+    <script src="../theme/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../theme/js/bootstrap.min.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="../theme/js/respond.min.js"></script>
+
+    <link rel="stylesheet" href="../theme/css/colorbox.css">
+    <script src="../theme/js/jquery.colorbox-min.js"></script>
+    <script>
+          jQuery(document).ready(function () {
+              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1', maxWidth:'80%' });
+          });
+      </script>
+
 </head>
 <body>
 
@@ -209,9 +224,9 @@ Yomguy's blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
-                            <a href="../category/about.html">About</a>
-                        </li>
+                         <li><a href="../pages/about-me.html">
+                             About me
+                          </a></li>
                         <li >
                             <a href="../category/libre.html">Libre</a>
                         </li>
@@ -243,9 +258,9 @@ Yomguy's blog            </a>
             <article>
                 <h2><a href="../la-paix-par-les-armes.html">La paix par les armes</a></h2>
                 <div class="summary"><p>Après le 7 janvier, j'avais alerté, comme beaucoup d'autres, du danger de se voir confisquer nos libertés par ceux qui feignent les défendre.</p>
+<p><a class='gallery' href='/images/IMG_20151127_081952.jpg'><img width="450" alt="la paix par les armes 1" title="la paix par les armes 1" class="gallery" src="/images/IMG_20151127_081952.jpg"></a>
+<a class='gallery' href='/images/IMG_20151127_082131.jpg'><img width="250" alt="la paix par les armes 2" title="la paix par les armes 2" class="gallery" src="/images/IMG_20151127_082131.jpg"></a></p>
 <p>C'était sous mes fenêtres ce matin... Au moins 40 fourgons et plus de 300 policiers à la louche bien armés (cf. photos) pour contrôler 15 squatteurs hippies qui seraient "susceptibles de troubler l’ordre public pendant la COP21", comme le relatent de <a href="https://wiki.laquadrature.net/%C3%89tat_urgence/Recensement#27_novembre_2015">nombreux articles</a>.</p>
-<p><img width="300" alt=""300 flics pour 15 squatteurs 1"" title=""300 flics pour 15 squatteurs 1"" src="images/IMG_20151127_081952.jpg"></p>
-<p><img width="300" alt=""300 flics pour 15 squatteurs 2"" title=""300 flics pour 15 squatteurs 2"" src="images/IMG_20151127_082131.jpg"></p>
 <p>Quel rapport avec le terrorisme ? Qu'est-ce qui dérange tant messieurs Valls, Cazeneuve et Bauer sinon une forme naturelle de résistance politique qui les empêcherait de mener à bien un plan de contrôle de soumission massif de la société ?</p>
 <p>Regardons les choses en face, la République et l'Etat de droit sont en train de disparaître sous ...</p>
                     <a class="btn btn-default btn-xs" href="../la-paix-par-les-armes.html">more ...</a>
@@ -255,8 +270,8 @@ Yomguy's blog            </a>
             <article>
                 <h2><a href="../7115.html">7/1/15</a></h2>
                 <div class="summary"><p>Nous avons perdu une sacrée tranche de rire. Cabu était pour moi un modèle de pensée, une idole, un génie que je lisais assidûment chaque semaine. L'histoire nous ayant trop souvent montré que de telles attaques idéologiques engageaient des restrictions encore plus profondes de nos libertés, j'essaie de rassembler mes pensées depuis hier pour pointer les erreurs que nous ne devons pas commettre dans la réactivité. Et je pense d'abord que nous avons toutes et tous une responsabilité à ne pas laisser la société oligarchique, religieuse, publicitaire et sécuritaire choisir ce que doivent devenir les conditions de ces libertés.</p>
-<p>Un message d'espoir et de résistance de Banksy:
-<img alt="Yesterday, Today, Tomorrow" src="images/yesterday-today-tomorrow.jpg" /></p>
+<p>Un message d'espoir et de résistance de Banksy:</p>
+<p><img width="830" alt="Yesterday, Today, Tomorrow" title="Yesterday, Today, Tomorrow" src="/images/yesterday-today-tomorrow.jpg"></p>
                     <a class="btn btn-default btn-xs" href="../7115.html">more ...</a>
                 </div>
             </article>
@@ -344,16 +359,7 @@ Yomguy's blog            </a>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
    </div>
-</footer>
-<script src="../theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="../theme/js/respond.min.js"></script>
-
-    <!-- GitHub JS -->
+</footer>    <!-- GitHub JS -->
     <script type="text/javascript">
         $(document).ready(function () {
             if (!window.jXHR) {

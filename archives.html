@@ -191,6 +191,21 @@ init_mathjax();
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Yomguy's blog ATOM Feed"/>
 
+
+    <script src="./theme/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./theme/js/bootstrap.min.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="./theme/js/respond.min.js"></script>
+
+    <link rel="stylesheet" href="./theme/css/colorbox.css">
+    <script src="./theme/js/jquery.colorbox-min.js"></script>
+    <script>
+          jQuery(document).ready(function () {
+              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1', maxWidth:'80%' });
+          });
+      </script>
+
 </head>
 <body>
 
@@ -208,9 +223,9 @@ Yomguy's blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
-                            <a href="./category/about.html">About</a>
-                        </li>
+                         <li><a href="./pages/about-me.html">
+                             About me
+                          </a></li>
                         <li >
                             <a href="./category/libre.html">Libre</a>
                         </li>
@@ -255,10 +270,6 @@ Yomguy's blog            </a>
                     <a href="./my-realtime-preemptible-kernel-for-audio-and-video-workstations.html">My realtime preemptible Linux kernel for audio and video workstations</a>
                 </p>
                 <p>
-                    <span class="categories-timestamp"><time datetime="2014-03-02T21:21:00+01:00">dim. 02 mars 2014</time></span>
-                    <a href="./about-me.html">About me</a>
-                </p>
-                <p>
                     <span class="categories-timestamp"><time datetime="2013-09-05T09:35:00+02:00">jeu. 05 septembre 2013</time></span>
                     <a href="./linux-i-love-you.html">Linux saved my life again</a>
                 </p>
@@ -273,6 +284,10 @@ Yomguy's blog            </a>
                 <p>
                     <span class="categories-timestamp"><time datetime="2013-01-16T13:23:00+01:00">mer. 16 janvier 2013</time></span>
                     <a href="./telemeta-1-embedded-timeside-player.html">Embedded Telemeta / TimeSide player !</a>
+                </p>
+                <p>
+                    <span class="categories-timestamp"><time datetime="2011-07-14T07:33:00+02:00">jeu. 14 juillet 2011</time></span>
+                    <a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a>
                 </p>
                 <p>
                     <span class="categories-timestamp"><time datetime="2011-01-16T13:23:00+01:00">dim. 16 janvier 2011</time></span>
@@ -362,16 +377,7 @@ Yomguy's blog            </a>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
    </div>
-</footer>
-<script src="./theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="./theme/js/respond.min.js"></script>
-
-    <!-- GitHub JS -->
+</footer>    <!-- GitHub JS -->
     <script type="text/javascript">
         $(document).ready(function () {
             if (!window.jXHR) {

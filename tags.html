@@ -191,6 +191,21 @@ init_mathjax();
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Yomguy's blog ATOM Feed"/>
 
+
+    <script src="./theme/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./theme/js/bootstrap.min.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="./theme/js/respond.min.js"></script>
+
+    <link rel="stylesheet" href="./theme/css/colorbox.css">
+    <script src="./theme/js/jquery.colorbox-min.js"></script>
+    <script>
+          jQuery(document).ready(function () {
+              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1', maxWidth:'80%' });
+          });
+      </script>
+
 </head>
 <body>
 
@@ -208,9 +223,9 @@ Yomguy's blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
-                            <a href="./category/about.html">About</a>
-                        </li>
+                         <li><a href="./pages/about-me.html">
+                             About me
+                          </a></li>
                         <li >
                             <a href="./category/libre.html">Libre</a>
                         </li>
@@ -244,12 +259,11 @@ Yomguy's blog            </a>
         <div class="panel-group" id="accordion">            <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-about">about <span class="badge pull-right">2</span></a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-about">about <span class="badge pull-right">1</span></a>
                     </h4>
                 </div>
                 <div id="collapse-about" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2014-03-02T21:21:00+01:00">dim. 02 mars 2014</time></span> <a href="./about-me.html">About me</a></p>
                         <p><span class="categories-timestamp"><time datetime="2013-08-19T22:30:00+02:00">lun. 19 août 2013</time></span> <a href="./switching-my-blog.html">Switching my blog again</a></p>
                     </div>
                 </div>
@@ -257,12 +271,13 @@ Yomguy's blog            </a>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-audio">Audio <span class="badge pull-right">1</span></a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-audio">Audio <span class="badge pull-right">2</span></a>
                     </h4>
                 </div>
                 <div id="collapse-audio" class="panel-collapse collapse">
                     <div class="panel-body">
                         <p><span class="categories-timestamp"><time datetime="2014-09-12T08:41:00+02:00">ven. 12 septembre 2014</time></span> <a href="./my-realtime-preemptible-kernel-for-audio-and-video-workstations.html">My realtime preemptible Linux kernel for audio and video workstations</a></p>
+                        <p><span class="categories-timestamp"><time datetime="2011-07-14T07:33:00+02:00">jeu. 14 juillet 2011</time></span> <a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></p>
                     </div>
                 </div>
             </div>
@@ -341,6 +356,18 @@ Yomguy's blog            </a>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-kernel">kernel <span class="badge pull-right">1</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-kernel" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p><span class="categories-timestamp"><time datetime="2011-07-14T07:33:00+02:00">jeu. 14 juillet 2011</time></span> <a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-libre">Libre <span class="badge pull-right">2</span></a>
                     </h4>
                 </div>
@@ -354,25 +381,14 @@ Yomguy's blog            </a>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-linux">Linux <span class="badge pull-right">2</span></a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-linux">Linux <span class="badge pull-right">3</span></a>
                     </h4>
                 </div>
                 <div id="collapse-linux" class="panel-collapse collapse">
                     <div class="panel-body">
                         <p><span class="categories-timestamp"><time datetime="2014-09-12T08:41:00+02:00">ven. 12 septembre 2014</time></span> <a href="./my-realtime-preemptible-kernel-for-audio-and-video-workstations.html">My realtime preemptible Linux kernel for audio and video workstations</a></p>
                         <p><span class="categories-timestamp"><time datetime="2013-09-05T09:35:00+02:00">jeu. 05 septembre 2013</time></span> <a href="./linux-i-love-you.html">Linux saved my life again</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-me">me <span class="badge pull-right">1</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-me" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2014-03-02T21:21:00+01:00">dim. 02 mars 2014</time></span> <a href="./about-me.html">About me</a></p>
+                        <p><span class="categories-timestamp"><time datetime="2011-07-14T07:33:00+02:00">jeu. 14 juillet 2011</time></span> <a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></p>
                     </div>
                 </div>
             </div>
@@ -404,12 +420,13 @@ Yomguy's blog            </a>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-realtime">Realtime <span class="badge pull-right">1</span></a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-realtime">Realtime <span class="badge pull-right">2</span></a>
                     </h4>
                 </div>
                 <div id="collapse-realtime" class="panel-collapse collapse">
                     <div class="panel-body">
                         <p><span class="categories-timestamp"><time datetime="2014-09-12T08:41:00+02:00">ven. 12 septembre 2014</time></span> <a href="./my-realtime-preemptible-kernel-for-audio-and-video-workstations.html">My realtime preemptible Linux kernel for audio and video workstations</a></p>
+                        <p><span class="categories-timestamp"><time datetime="2011-07-14T07:33:00+02:00">jeu. 14 juillet 2011</time></span> <a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></p>
                     </div>
                 </div>
             </div>
@@ -422,6 +439,18 @@ Yomguy's blog            </a>
                 <div id="collapse-reseau" class="panel-collapse collapse">
                     <div class="panel-body">
                         <p><span class="categories-timestamp"><time datetime="2013-06-27T10:30:00+02:00">jeu. 27 juin 2013</time></span> <a href="./wtf-le-reseau-en-france.html">WTF le réseau en France ?!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-rt">RT <span class="badge pull-right">1</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-rt" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p><span class="categories-timestamp"><time datetime="2011-07-14T07:33:00+02:00">jeu. 14 juillet 2011</time></span> <a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></p>
                     </div>
                 </div>
             </div>
@@ -458,6 +487,18 @@ Yomguy's blog            </a>
                 <div id="collapse-timeside" class="panel-collapse collapse">
                     <div class="panel-body">
                         <p><span class="categories-timestamp"><time datetime="2013-01-16T13:23:00+01:00">mer. 16 janvier 2013</time></span> <a href="./telemeta-1-embedded-timeside-player.html">Embedded Telemeta / TimeSide player !</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-usb">usb <span class="badge pull-right">1</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-usb" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p><span class="categories-timestamp"><time datetime="2011-07-14T07:33:00+02:00">jeu. 14 juillet 2011</time></span> <a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></p>
                     </div>
                 </div>
             </div>
@@ -558,16 +599,7 @@ Yomguy's blog            </a>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
    </div>
-</footer>
-<script src="./theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="./theme/js/respond.min.js"></script>
-
-    <!-- GitHub JS -->
+</footer>    <!-- GitHub JS -->
     <script type="text/javascript">
         $(document).ready(function () {
             if (!window.jXHR) {

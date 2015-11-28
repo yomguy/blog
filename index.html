@@ -191,6 +191,21 @@ init_mathjax();
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Yomguy's blog ATOM Feed"/>
 
+
+    <script src="./theme/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./theme/js/bootstrap.min.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="./theme/js/respond.min.js"></script>
+
+    <link rel="stylesheet" href="./theme/css/colorbox.css">
+    <script src="./theme/js/jquery.colorbox-min.js"></script>
+    <script>
+          jQuery(document).ready(function () {
+              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1', maxWidth:'80%' });
+          });
+      </script>
+
 </head>
 <body>
 
@@ -208,9 +223,9 @@ Yomguy's blog            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
-                            <a href="./category/about.html">About</a>
-                        </li>
+                         <li><a href="./pages/about-me.html">
+                             About me
+                          </a></li>
                         <li >
                             <a href="./category/libre.html">Libre</a>
                         </li>
@@ -242,9 +257,9 @@ Yomguy's blog            </a>
             <article>
                 <h2><a href="./la-paix-par-les-armes.html">La paix par les armes</a></h2>
                 <div class="summary"><p>Après le 7 janvier, j'avais alerté, comme beaucoup d'autres, du danger de se voir confisquer nos libertés par ceux qui feignent les défendre.</p>
+<p><a class='gallery' href='/images/IMG_20151127_081952.jpg'><img width="450" alt="la paix par les armes 1" title="la paix par les armes 1" class="gallery" src="/images/IMG_20151127_081952.jpg"></a>
+<a class='gallery' href='/images/IMG_20151127_082131.jpg'><img width="250" alt="la paix par les armes 2" title="la paix par les armes 2" class="gallery" src="/images/IMG_20151127_082131.jpg"></a></p>
 <p>C'était sous mes fenêtres ce matin... Au moins 40 fourgons et plus de 300 policiers à la louche bien armés (cf. photos) pour contrôler 15 squatteurs hippies qui seraient "susceptibles de troubler l’ordre public pendant la COP21", comme le relatent de <a href="https://wiki.laquadrature.net/%C3%89tat_urgence/Recensement#27_novembre_2015">nombreux articles</a>.</p>
-<p><img width="300" alt=""300 flics pour 15 squatteurs 1"" title=""300 flics pour 15 squatteurs 1"" src="images/IMG_20151127_081952.jpg"></p>
-<p><img width="300" alt=""300 flics pour 15 squatteurs 2"" title=""300 flics pour 15 squatteurs 2"" src="images/IMG_20151127_082131.jpg"></p>
 <p>Quel rapport avec le terrorisme ? Qu'est-ce qui dérange tant messieurs Valls, Cazeneuve et Bauer sinon une forme naturelle de résistance politique qui les empêcherait de mener à bien un plan de contrôle de soumission massif de la société ?</p>
 <p>Regardons les choses en face, la République et l'Etat de droit sont en train de disparaître sous ...</p>
                     <a class="btn btn-default btn-xs" href="./la-paix-par-les-armes.html">more ...</a>
@@ -254,8 +269,8 @@ Yomguy's blog            </a>
             <article>
                 <h2><a href="./7115.html">7/1/15</a></h2>
                 <div class="summary"><p>Nous avons perdu une sacrée tranche de rire. Cabu était pour moi un modèle de pensée, une idole, un génie que je lisais assidûment chaque semaine. L'histoire nous ayant trop souvent montré que de telles attaques idéologiques engageaient des restrictions encore plus profondes de nos libertés, j'essaie de rassembler mes pensées depuis hier pour pointer les erreurs que nous ne devons pas commettre dans la réactivité. Et je pense d'abord que nous avons toutes et tous une responsabilité à ne pas laisser la société oligarchique, religieuse, publicitaire et sécuritaire choisir ce que doivent devenir les conditions de ces libertés.</p>
-<p>Un message d'espoir et de résistance de Banksy:
-<img alt="Yesterday, Today, Tomorrow" src="images/yesterday-today-tomorrow.jpg" /></p>
+<p>Un message d'espoir et de résistance de Banksy:</p>
+<p><img width="830" alt="Yesterday, Today, Tomorrow" title="Yesterday, Today, Tomorrow" src="/images/yesterday-today-tomorrow.jpg"></p>
                     <a class="btn btn-default btn-xs" href="./7115.html">more ...</a>
                 </div>
             </article>
@@ -265,20 +280,6 @@ Yomguy's blog            </a>
                 <div class="summary"><p>Fast realtime audio and video operations need stable, priority and realtime accesses to each system devices. As many distributions come with some partially or fake low latency kernels, i.e. not as preemptible as needed for <strong>real</strong> realtime processes, I propose my own configuration rules to install a better Linux RT kernel here:</p>
 <p><a href="https://github.com/yomguy/linux-RT-config">https://github.com/yomguy/linux-RT-config</a></p>
                     <a class="btn btn-default btn-xs" href="./my-realtime-preemptible-kernel-for-audio-and-video-workstations.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./about-me.html">About me</a></h2>
-                <div class="summary"><p>Eng. at Arts et Métiers ParisTech (1997-2000), Msc. ATIAM at UPMC (2001), PhD. in non-linear and low frequency acoustics and mechanics at UPMC (&lt;2006), Ass. Prof. at CNAM in acoustics and signal processing (&lt;2008).</p>
-<p>Now co-founder, CEO / CTO at <a href="http://parisson.com">Parisson</a>: Manager, strategist, system admin, software and hardware architect, data scientist and developer for several open source projects for digital humanities, laboratories and universities like web audio archiving and computing platforms <a href="http://telemeta.org">Telemeta</a>, high level audio processing frameworks <a href="https://github.com/Parisson/TimeSide">TimeSide</a>, live video e-learning platforms <a href="https://github.com/yomguy/teleforma">TeleForma</a>, embedded mobile recording and streaming solutions <a href="http://telecasting.parisson.com/">TeleCaster</a>, <a href="https://github.com/yomguy/DeeFuzzer">DeeFuzzer</a>.</p>
-<p>Open culture and free / libre software advocate, Python lover, Linux fan, Music addict, electronic music producer at <a href="http://deefuzz.parisson.com">DeeFuzz Radio</a>, expert in audio and video production systems and mastering technics.</p>
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">time</span><span class="o">,</span> <span class="nn">freedom</span>
-</pre></div>
-
-
-<p><img alt="VU" src="images/wall-vu-1200_crop.jpg" /></p>
-                    <a class="btn btn-default btn-xs" href="./about-me.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -320,6 +321,16 @@ Yomguy's blog            </a>
 <p>All metadata time markers can be displayed during playback so you can follow, jump, read as you are listening to the sound. Here is a nice example with <a href="http://parisson.telemeta.org/items/PRS_07_01_03/">"I Could Never Make that Music Again" from L&amp;R and RadioMentale (Sub Rosa SR 249, 2007)</a>. This track is a radio collage which organises and disorganises quotes from various famous electronic music artists interviewed and recorded:</p>
 <iframe src="http://parisson.telemeta.org/items/PRS_07_01_03/player/600x170" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="615" height="260"></iframe>
                     <a class="btn btn-default btn-xs" href="./telemeta-1-embedded-timeside-player.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">M-Audio Fast Track Pro and Quattro special features now enabled for Linux</a></h2>
+                <div class="summary"><p>EDIT: Thanks to Takashi Iwai, the patch has been <a href="http://git.kernel.org/?p=linux/kernel/git/tiwai/sound-2.6.git;a=commitdiff;h=0f5733b0c883158b13366ae34b5e4bd52a1ac346;hp=3101ba035ca9ba92f6cec7fd37348646b7a5cb61">applied to the Linux kernel sound branch</a> and <a href="http://git.kernel.org/?p=linux/kernel/git/tiwai/sound-2.6.git;a=commitdiff;h=02e5fbf622aabf68bdc02282a17a3aeed054237a">merged</a> from the 3.1 version and the then mainstream.</p>
+<p>A few month ago, I was looking for a 24 bits driver for the Fast Track Pro included in the <a href="http://parisson.com/products/tc-202-case-1/">TC-202</a>.</p>
+<p>I found a patch for the 2.6.31 kernel on <a href="http://joegiampaoli.blogspot.com/2011/06/m-audio-fast-track-pro-for-debian-linux.html">Joe Giampaoli's blog</a>  which were written first by Pavel Polischouk. It added some quirks to the snd-usb-audio driver enabling 24 bits, 96 kHz and other special features for the FTP. Then, I adapted it for 2.6.33 RT and <a href="http://files.parisson.com/debian/usbaudio-ftp-2.6.33.7-yomguy.patch">published it</a>.</p>
+<p>Now that the kernel 2.6.39 includes almost all of the realtime functions - like threaded IRQs for example - I decided to produce the same ...</p>
+                    <a class="btn btn-default btn-xs" href="./m-audio-fast-track-pro-and-quattro-special-features-now-enabled-for-linux.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -413,16 +424,7 @@ Yomguy's blog            </a>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
    </div>
-</footer>
-<script src="./theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="./theme/js/respond.min.js"></script>
-
-    <!-- GitHub JS -->
+</footer>    <!-- GitHub JS -->
     <script type="text/javascript">
         $(document).ready(function () {
             if (!window.jXHR) {
