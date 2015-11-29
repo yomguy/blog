@@ -1,25 +1,42 @@
-Title: Acoustic nozzle
+Title: Les tuyères acoustiques
 Category: Technologies
 Tags: acoustics, nozzle, tuyère, acoustique
 Status: draft
 
 
-Background
-===========
+Introduction
+=============
 
-The Lyulka project
---------------------
+ATIAM, Thèse
+Morkerken, Polack, LAM
+problématique : instabilités, distortion
 
-Started at at Lam
+Le système "Bass Reflex"
+==========================
 
+Le résonateur de Helmholtz
+Le dipôle acoustique
+Les effets aéroacoustiques
 
-Bass Reflex system
-===================
+Les tuyères acoustiques
+=======================
 
-Common Helmoltz resonator system
----------------------------------
+principe
 
+résultats:
+ * THD
+ * stabilité aéroacoustique
 
+Le projet Lyulka
+=================
 
-The acoustic diplole alignment
---------------------------------
+Expérimentations
+
+CAO, FEM
+
+Prototypes
+
+Tests
+
+Perspectives
+==============

@@ -2,7 +2,7 @@ Title: About me
 Date: 2014-03-02 21:21
 
     :::python
-    import os, sys, time, freedom
+    import os, sys, time, music, freedom
 
 Eng. at Arts et Métiers ParisTech (1997-2000), Msc. ATIAM at UPMC (2001), PhD. in non-linear and low frequency acoustics and mechanics at UPMC (<2006), Ass. Prof. at CNAM in acoustics and signal processing (<2008).
 
@@ -10,6 +10,6 @@ Now co-founder, CEO / CTO at [Parisson](http://parisson.com): Manager, strategis
 
 Open culture and free / libre software advocate, Python lover, Linux fan, Music addict, electronic music producer at [DeeFuzz Radio](http://deefuzz.parisson.com), expert in audio and video production systems and mastering technics.
 
-I use this blog to post some ideas that too long for micro blogging. For more fun, audio, music and realtime stuff, please follow me on twitter, G+, FB, etc.
+I use this blog to post some ideas that too long for micro blogging. For more fun, audio, music and realtime stuff, please follow me on Twitter, G+, LinkedIn, FB, etc...
 
 {% img /images/wall-vu-1200_crop.jpg 830 VU %}

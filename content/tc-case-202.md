@@ -2,9 +2,6 @@ Title: TC-202 "Case"
 Date: 2011-01-16 13:23
 Category: Projects
 Tags: Parisson, TeleCaster
-Slug: tc-case-202
-Author: Guillaume Pellerin
-Summary: TC-202 "Case" has been released by Parisson
 
 My company Parisson has just release its unique recording and broadcasting device namely TC-202 "Case". It is the only full mobile solution for audio and video recording and streaming.
 
