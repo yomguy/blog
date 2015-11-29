@@ -164,15 +164,3 @@ figure.floatcenter, .align-center {
 .tagcloud li {
     padding: 0px;
 }
-
-.img-left {
-    float: left;
-    display: inline;
-    margin: 1em;
-}
-
-.img-right {
-    float: right;
-    display: inline;
-    margin: 1em;
-}
