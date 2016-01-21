@@ -57,6 +57,7 @@ PLUGINS = ['sitemap', 'gallery', 'render_math',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            ]
+
 SITEMAP = {
 
     'format': 'xml',

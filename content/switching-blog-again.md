@@ -1,8 +1,8 @@
-Title: Switching my blog again
+Title: Static web!
 Date: 2013-08-19 22:30
 Category: Technologies
 Tags: about
-Slug: switching-my-blog
+Slug: static-web
 Author: Guillaume Pellerin
 
 After many switches between Wordpress (2001), DotClear (2002) and other cool blog apps like Zinnia for Django which I love so much, after too much SQL hacking for upgrades and tons of SPAM in comments, I decided to rebuild my blog with a static engine. I choose Pelican, a nice pyton app, which builds the entire blog from markdown or restructured text + some themes to regular HTML/CSS files.
